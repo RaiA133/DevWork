@@ -1,7 +1,7 @@
 # DevWork Instruction
 
 ### Registered User 
-**Admin Email & Password**
+*Admin Email & Password*
 | Email & Password | Value |
 | :-----------------: | :-----------------: |
 | **Email    :** | rai010303@gmail.com |

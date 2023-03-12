@@ -28,36 +28,36 @@
 If You Using PHP v8.2.0 with XAMPP v3.3.0
 and get this kind of error 
 ============================
-A PHP Error was encountered
-Severity: 8192
-Message: Creation of dynamic property CI_URI::$config is deprecated
-Filename: core/URI.php
-Line Number: 101
-Backtrace:
-File: C:\xampp\htdocs\app-spp\index.php
-Line: 315
-Function: require_once
+A PHP Error was encountered <br />
+Severity: 8192 <br />
+Message: Creation of dynamic property CI_URI::$config is deprecated <br />
+Filename: core/URI.php <br />
+Line Number: 101 <br />
+Backtrace: <br />
+File: C:\xampp\htdocs\app-spp\index.php <br />
+Line: 315 <br />
+Function: require_once <br />
 
 ***SOLUTION***
 1. Open File : C:\xampp\htdocs\app-spp\system\core\URI.php <br />
-add : #[\AllowDynamicProperties]
-before : class CI_URI {
+add : #[\AllowDynamicProperties] <br />
+before : class CI_URI { <br /> <br />
 
-2. Open File : C:\xampp\htdocs\app-spp\system\core\Router.php
-add : #[\AllowDynamicProperties]
-befores : class CI_Router {
+2. Open File : C:\xampp\htdocs\app-spp\system\core\Router.php <br />
+add : #[\AllowDynamicProperties] <br /> <br />
+befores : class CI_Router { <br /> <br />
 
-3. Open File : C:\xampp\htdocs\app-spp\system\core\Controller.php
-add : #[\AllowDynamicProperties]
-before : class CI_Controller {
+3. Open File : C:\xampp\htdocs\app-spp\system\core\Controller.php <br />
+add : #[\AllowDynamicProperties] <br />
+before : class CI_Controller { <br /> <br />
 
-4. Open File : C:\xampp\htdocs\app-spp\system\database\DB_driver.php
-add : #[\AllowDynamicProperties]
-before : abstract class CI_DB_driver {
+4. Open File : C:\xampp\htdocs\app-spp\system\database\DB_driver.php <br />
+add : #[\AllowDynamicProperties] <br />
+before : abstract class CI_DB_driver { <br /> <br />
 
-5. Open File : C:\xampp\htdocs\app-spp\system\core\Loader.php
-add : #[\AllowDynamicProperties]
-sbefore : class CI_Loader {
+5. Open File : C:\xampp\htdocs\app-spp\system\core\Loader.php <br />
+add : #[\AllowDynamicProperties] <br />
+sbefore : class CI_Loader { <br /> <br />
 
 
 

@@ -2,10 +2,12 @@
 
 ### Registered User 
 **Admin Email & Password**
+| :-----------------: | :-----------------: |
 | **Email    :** | rai010303@gmail.com |
 | **Password :** | 123123 |
 
 **User Email & Password**
+| :-----------------: | :-----------------: | :-------------------: |
 | 1 | **Email    :** | ridwanh@gmail.com |
 |   | **Password :** | 123123 |
 | 2 | **Email    :** | ari123@gmail.com |

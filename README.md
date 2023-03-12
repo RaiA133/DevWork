@@ -45,19 +45,19 @@ before : class CI_URI { <br />
 
 2. Open File : C:\xampp\htdocs\app-spp\system\core\Router.php <br />
 add : #[\AllowDynamicProperties] <br />
-befores : class CI_Router { <br /> <br />
+befores : class CI_Router { <br />
 
 3. Open File : C:\xampp\htdocs\app-spp\system\core\Controller.php <br />
 add : #[\AllowDynamicProperties] <br />
-before : class CI_Controller { <br /> <br />
+before : class CI_Controller { <br />
 
 4. Open File : C:\xampp\htdocs\app-spp\system\database\DB_driver.php <br />
 add : #[\AllowDynamicProperties] <br />
-before : abstract class CI_DB_driver { <br /> <br />
+before : abstract class CI_DB_driver { <br />
 
 5. Open File : C:\xampp\htdocs\app-spp\system\core\Loader.php <br />
 add : #[\AllowDynamicProperties] <br />
-sbefore : class CI_Loader { <br /> <br />
+sbefore : class CI_Loader { <br />
 
 
 

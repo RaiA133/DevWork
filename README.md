@@ -41,10 +41,10 @@ Function: require_once <br />
 ***SOLUTION***
 1. Open File : C:\xampp\htdocs\app-spp\system\core\URI.php <br />
 add : #[\AllowDynamicProperties] <br />
-before : class CI_URI { <br /> <br />
+before : class CI_URI { <br />
 
 2. Open File : C:\xampp\htdocs\app-spp\system\core\Router.php <br />
-add : #[\AllowDynamicProperties] <br /> <br />
+add : #[\AllowDynamicProperties] <br />
 befores : class CI_Router { <br /> <br />
 
 3. Open File : C:\xampp\htdocs\app-spp\system\core\Controller.php <br />

@@ -102,7 +102,7 @@ $db['default'] = array(
 	'password' => '1Maret2003',
 	'database' => 'devwork_polardb',
 	'dbdriver' => 'mysqli',
-	'host'     => '3306',
+	'port'     => '3306',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

@@ -31,7 +31,15 @@ class Admin extends CI_Controller
     }
     public function hapus($id)
     {
-        $this->db->delete('user', ['id' => $id]);
-        redirect('admin');
+        $data['user'] = $this->db->get_where('user', ['id' => $id])->row_array();
+        $old_image = $data['user']['image'];
+        if ($old_image == "default.png") {
+            $this->db->delete('user', ['id' => $id]);
+            redirect('admin');
+        } else {
+            unlink(FCPATH . 'assets/img/profile/' . $old_image);
+            $this->db->delete('user', ['id' => $id]);
+            redirect('admin');
+        }
     }
 }

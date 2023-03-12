@@ -25,9 +25,8 @@
 - PHP V8.1.6
 - xampp v3.3.0
 
-If You Using PHP v8.2.0 with XAMPP v3.3.0
-and get this kind of error 
-============================
+**If You Using PHP v8.2.0 with XAMPP v3.3.0and get this kind of error**
+
 A PHP Error was encountered <br />
 Severity: 8192 <br />
 Message: Creation of dynamic property CI_URI::$config is deprecated <br />

@@ -39,7 +39,7 @@ Line: 315
 Function: require_once
 
 ***SOLUTION***
-1. Open File : C:\xampp\htdocs\app-spp\system\core\URI.php__
+1. Open File : C:\xampp\htdocs\app-spp\system\core\URI.php <br />
 add : #[\AllowDynamicProperties]
 before : class CI_URI {
 

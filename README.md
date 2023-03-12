@@ -39,9 +39,9 @@ Line: 315
 Function: require_once
 
 ***SOLUTION***
-1. Open File : C:\xampp\htdocs\app-spp\system\core\URI.php
-	 add : #[\AllowDynamicProperties]
-	 before : class CI_URI {
+1. Open File : C:\xampp\htdocs\app-spp\system\core\URI.php__
+add : #[\AllowDynamicProperties]
+before : class CI_URI {
 
 2. Open File : C:\xampp\htdocs\app-spp\system\core\Router.php
 add : #[\AllowDynamicProperties]

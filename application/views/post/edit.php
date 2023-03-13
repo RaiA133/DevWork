@@ -78,10 +78,10 @@
                                     <option <?= $user_post['post_category'] == 'Web' ? 'selected' : ''; ?>>Web</option>
                                     <option <?= $user_post['post_category'] == 'Gaming' ? 'selected' : ''; ?>>Gaming</option>
                                     <option <?= $user_post['post_category'] == 'Digital Marketing' ? 'selected' : ''; ?>>Digital Marketing</option>
-                                    <option <?= $user_post['post_category'] == 'Programming & Tech' ? 'selected' : ''; ?>>Programming & Tech</option>
-                                    <option <?= $user_post['post_category'] == 'Graphics & Design' ? 'selected' : ''; ?>>Graphics & Design</option>
-                                    <option <?= $user_post['post_category'] == 'Video Animation' ? 'selected' : ''; ?>>Video & Animation</option>
-                                    <option <?= $user_post['post_category'] == 'Writing & Translation' ? 'selected' : ''; ?>>Writing & Translation</option>
+                                    <option <?= $user_post['post_category'] == 'Programming and Tech' ? 'selected' : ''; ?>>Programming and Tech</option>
+                                    <option <?= $user_post['post_category'] == 'Graphics and Design' ? 'selected' : ''; ?>>Graphics and Design</option>
+                                    <option <?= $user_post['post_category'] == 'Video Animation' ? 'selected' : ''; ?>>Video and Animation</option>
+                                    <option <?= $user_post['post_category'] == 'Writing and Translation' ? 'selected' : ''; ?>>Writing and Translation</option>
                                     <option <?= $user_post['post_category'] == 'AI Service' ? 'selected' : ''; ?>>AI Service</option>
                                 </select>
                             </div>

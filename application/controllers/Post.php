@@ -173,8 +173,16 @@ class Post extends CI_Controller
 
     public function delete_post($id)
     {
-        $this->db->delete('user_post', ['id' => $id]);
-        redirect('post/list');
+        $data['user'] = $this->db->get_where('user', ['id' => $id])->row_array();
+        $old_image = $data['user']['image'];
+        if ($old_image == "default.png") {
+            $this->db->delete('user_post', ['id' => $id]);
+            redirect('post/list');
+        } else {
+            unlink(FCPATH . 'assets/img/profile/' . $old_image);
+            $this->db->delete('user_post', ['id' => $id]);
+            redirect('post/list');
+        }
     }
 
     public function list()

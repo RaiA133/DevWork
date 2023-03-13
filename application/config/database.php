@@ -73,28 +73,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-// $db['default'] = array(
-// 	'dsn'	=> '',
-// 	'hostname' => 'localhost',
-// 	'username' => 'root',
-// 	'password' => '',
-// 	'database' => 'devwork_polardb',
-// 	'dbdriver' => 'mysqli',
-// 	'dbprefix' => '',
-// 	'pconnect' => FALSE,
-// 	'db_debug' => (ENVIRONMENT !== 'production'),
-// 	'cache_on' => FALSE,
-// 	'cachedir' => '',
-// 	'char_set' => 'utf8',
-// 	'dbcollat' => 'utf8_general_ci',
-// 	'swap_pre' => '',
-// 	'encrypt' => FALSE,
-// 	'compress' => FALSE,
-// 	'stricton' => FALSE,
-// 	'failover' => array(),
-// 	'save_queries' => TRUE
-// );
 
+// JUST COMMENT THE CLUSTERS THAT YOU WANT TO USE & UNCOMMENT THE ONE THAT YOU WILL USE //
+
+// Primary Clusters
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'devwork.rwlb.ap-southeast-5.rds.aliyuncs.com',
@@ -117,3 +99,27 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+// // Primary Clusters
+// $db['default'] = array(
+// 	'dsn'	=> '',
+// 	'hostname' => 'devwork2gdn.rwlb.ap-southeast-5.rds.aliyuncs.com',
+// 	'username' => 'devwork_account',
+// 	'password' => '1Maret2003',
+// 	'database' => 'devwork_polardb',
+// 	'dbdriver' => 'mysqli',
+// 	'port'     => '3306',
+// 	'dbprefix' => '',
+// 	'pconnect' => FALSE,
+// 	'db_debug' => (ENVIRONMENT !== 'production'),
+// 	'cache_on' => FALSE,
+// 	'cachedir' => '',
+// 	'char_set' => 'utf8',
+// 	'dbcollat' => 'utf8_general_ci',
+// 	'swap_pre' => '',
+// 	'encrypt' => FALSE,
+// 	'compress' => FALSE,
+// 	'stricton' => FALSE,
+// 	'failover' => array(),
+// 	'save_queries' => TRUE
+// );

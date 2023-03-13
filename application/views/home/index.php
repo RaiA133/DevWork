@@ -54,9 +54,8 @@
                     <div class="col-12">
                         <div class="section-title align-left">
                             <span class="wow fadeInDown" data-wow-delay=".2s">Core Features</span>
-                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Provide Awesome Service With Our Tools</h2>
-                            <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
-                                Ipsum available, but the majority have suffered alteration in some form.</p>
+                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Provide Awesome Service With Our Application</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of this app features, all the benefits can be obtained from other users to all of us, so be an active user in using this application</p>
                         </div>
                     </div>
                 </div>
@@ -74,7 +73,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-12">
                             <div class="single-service wow fadeInUp" data-wow-delay=".4s">
-                                <h3><a href="service-single.html">provide attractive offers & prices</a></h3>
+                                <h3><a href="service-single.html">Provide attractive offers & prices</a></h3>
                                 <div class="icon">
                                     <i class="bi bi-clipboard2-check"></i>
                                 </div>

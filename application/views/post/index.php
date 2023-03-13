@@ -46,10 +46,10 @@
                                             <option>Web</option>
                                             <option>Gaming</option>
                                             <option>Digital Marketing</option>
-                                            <option>Programming & Tech</option>
-                                            <option>Graphics & Design</option>
-                                            <option>Video & Animation</option>
-                                            <option>Writing & Translation</option>
+                                            <option>Programming and Tech</option>
+                                            <option>Graphics and Design</option>
+                                            <option>Video and Animation</option>
+                                            <option>Writing and Translation</option>
                                             <option>AI Service</option>
                                         </select>
                                     </div>

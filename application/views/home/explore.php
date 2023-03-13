@@ -98,12 +98,12 @@
                                     <a class="nav-link dropdown-toggle text-712CF9" data-bs-toggle="dropdown" href="" role="button" aria-expanded="false"></a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Gaming'; ?>" data-bs-target="#gaming">Gaming</a></li>
-                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Digital Marketing'; ?>" data-bs-target="#digital_marketing">Digital Marketing</a></li>
-                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Programming & Tech'; ?>" data-bs-target="#business">Programming & Tech</a></li>
-                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Graphics & Design'; ?>" data-bs-target="#business">Graphics & Design</a></li>
-                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Animation'; ?>" data-bs-target="#business">Video & Animation</a></li>
-                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Writing & Translation'; ?>" data-bs-target="#business">Writing & Translation</a></li>
-                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=AI Service'; ?>" data-bs-target="#business">AI Service</a></li>
+                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Digital Marketing'; ?>" data-bs-target="#digital marketing">Digital Marketing</a></li>
+                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Programming and Tech'; ?>" data-bs-target="#Programming and Tech">Programming and Tech</a></li>
+                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Graphics and Design'; ?>" data-bs-target="#Graphics and Design">Graphics and Design</a></li>
+                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Video and Animation'; ?>" data-bs-target="#businVideo and Animationess">Video and Animation</a></li>
+                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=Writing and Translation'; ?>" data-bs-target="#Writing and Translation">Writing and Translation</a></li>
+                                        <li><a class="dropdown-item" href="<?= base_url('home/explore') . '?category=AI Service'; ?>" data-bs-target="#AI Service">AI Service</a></li>
                                     </ul>
                                 </li>
 

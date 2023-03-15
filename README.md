@@ -10,7 +10,7 @@
 **User Email & Password**
 | No | Email & Password | Value |
 | :-----------------: | :-----------------: | :-------------------: |
-| 1 | **Email    :** | ridwanh@gmail.com |
+| 1 | **Email    :** | ridwan@gmail.com |
 |   | **Password :** | 123123 |
 | 2 | **Email    :** | ari123@gmail.com |
 |   | **Password :** | 123123 |

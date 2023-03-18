@@ -57,7 +57,7 @@ before : abstract class CI_DB_driver { <br />
 
 5. Open File : C:\xampp\htdocs\app-spp\system\core\Loader.php <br />
 add : #[\AllowDynamicProperties] <br />
-sbefore : class CI_Loader { <br />
+before : class CI_Loader { <br />
 
 
 

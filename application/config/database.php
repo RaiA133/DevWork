@@ -79,10 +79,10 @@ $query_builder = TRUE;
 // Primary Clusters
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'devwork.rwlb.ap-southeast-5.rds.aliyuncs.com',
-	'username' => 'devwork_account',
-	'password' => '1Maret2003',
-	'database' => 'devwork_polardb',
+	'hostname' => '', //devwork.rwlb.ap-southeast-5.rds.aliyuncs.com
+	'username' => '', //devwork_account
+	'password' => '', //1Maret2003
+	'database' => '', //devwork_polardb
 	'dbdriver' => 'mysqli',
 	'port'     => '3306',
 	'dbprefix' => '',
